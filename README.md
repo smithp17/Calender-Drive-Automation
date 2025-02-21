@@ -102,3 +102,37 @@ This project automates the creation of Google Drive folders and generation of PD
 ## 📊 Folder & File Structure
 
 Example created folder name:
+
+
+---
+
+## 🐞 Error Logging
+
+Errors are logged into the specified Google Sheet (`LOG_SHEET_ID`):
+| Timestamp           | Error Message     | Stack Trace     |
+|---------------------|-------------------|-----------------|
+| 2024-02-20 10:35 AM | No valid event found. | [stack trace] |
+
+---
+
+## 📧 Email Notifications
+
+- **Participant A**: Receives the folder link and confirmation.
+- **Participant B**: Receives confirmation of PDF generation.
+
+---
+
+## ⚙️ Troubleshooting
+
+- **Permission Issues:** Reauthorize the script if API access is denied.
+- **No Folder Created:** Ensure the calendar event has participants.
+- **No PDF Saved:** Verify form submissions exist and `FORM_ID` is correct.
+
+---
+
+## 🙌 Contribution
+
+Feel free to fork this repository and suggest improvements!
+
+---
+
